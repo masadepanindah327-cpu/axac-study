@@ -1,38 +1,11 @@
-AXAC — Study Upgrade
-====================
-
-Isi paket:
-- index.html
-- assets/jadwal-asas-2026.jpg (foto jadwal resmi madrasah)
-- songs/ (9 file audio yang sudah ada)
-
-Yang ditambahkan:
-1. Pencarian topik, penjelasan, dan soal pada mapel aktif.
-2. Penanda "Sudah dipahami" untuk melacak topik yang dikuasai.
-3. Bookmark untuk menyimpan materi penting.
-4. Panel progres dan tombol untuk melanjutkan topik terakhir.
-5. Latihan campuran 10 soal acak dari contoh dan latihan yang sudah ada.
-6. Hasil latihan, nilai terbaik, dan daftar soal yang salah.
-7. Mode gelap dan pengaturan ukuran teks.
-8. Ekspor serta pemulihan progres lewat file JSON.
-9. Kisi-kisi resmi 50 indikator Prakarya dan 50 indikator Koding, disalin dari dua dokumen guru.
-10. Jadwal ASAS kelas VII 23–30 November 2026 dengan tautan foto jadwal resmi.
-
-Catatan penyimpanan:
-- Progres disimpan di penyimpanan browser pada perangkat yang dipakai.
-- Progres tidak otomatis tersinkron ke perangkat lain atau akun online.
-- Gunakan tombol "Cadangkan" sebelum pindah browser/perangkat; gunakan "Pulihkan" untuk memasukkan file cadangan.
-- Musik harus tetap berada di folder songs/ dengan nama file yang sama.
-
-Cara memasang di hosting statis:
-1. Ekstrak ZIP.
-2. Ganti index.html lama dengan index.html dari paket ini.
-3. Unggah folder songs/ bersama index.html. Jangan ubah nama folder atau nama file MP3.
-4. Deploy/publish ulang situs.
-
-Catatan teknis:
-- Situs tetap berupa web statis; paket ini tidak menambahkan login, server, database, atau sinkronisasi akun.
-- Google Fonts dipakai untuk tipografi. Jika internet tidak tersedia, browser memakai font cadangan.
-- Jadwal ditampilkan sesuai kolom Kelas VII pada foto jadwal MTs Negeri 2 Tegal.
-- Indikator Prakarya dan Koding ditampilkan sesuai dokumen yang diberikan. Pada dokumen Prakarya, nomor soal 25 tercantum dua kali (baris 25 dan 26), bentuk soal pada identitas berbeda dengan rincian per butir, dan butir 3 tertulis “Pilgand”. Catatan ini ditampilkan agar bisa dikonfirmasi ke guru.
-- Kisi-kisi adalah pegangan cakupan belajar; contoh soal dan penjelasan di halaman mapel tetap materi pendamping, bukan naskah soal resmi.
+AXAC - Study Pro (15 mapel)
+Isi: index.html, sw.js, manifest.webmanifest, ikon aplikasi, dan folder songs/ (9 lagu).
+Semua file harus berada di folder yang sama. Mode offline dan "Pasang aplikasi" hanya aktif lewat https (misalnya GitHub Pages).
+Fitur: jadwal dan hitung mundur ASAS, rencana belajar harian, simulasi ujian bertimer (pilihan ganda,
+pilihan ganda kompleks, benar-salah), kartu hafalan, label sumber soal, latihan acak, pencarian,
+progres belajar, musik belajar, mode gelap, cadangan dan pemulihan progres.
+Mapel: Pendidikan Pancasila, Bahasa Indonesia, Seni Rupa, Matematika, Al Qur’an Hadits, PJOK, IPA, SKI,
+Prakarya, Bahasa Inggris, Akidah Akhlak, Informatika, Koding, IPS, Fikih.
+Soal berlabel "Dari soal sekolah" diambil atau diringkas dari contoh soal sekolah. Soal "Latihan AXAC"
+disusun dari kisi-kisi dan sebaiknya dicek guru. Periksa kisi-kisi dan jadwal resmi sebelum dipakai.
+Jadwal dihitung dalam WIB (UTC+7).
